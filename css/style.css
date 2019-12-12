@@ -1,0 +1,75 @@
+@font-face{
+    font-family: "Helvetica Neue";
+    src: url("Helvetica Neu Bold.ttf");
+}
+@font-face{
+    font-family: "Helvetica Neue1";
+    src: url("HelveticaNeue Light.ttf");
+}
+@font-face{
+    font-family: "Helvetica Neue2";
+    src: url("HelveticaNeue Thin.ttf");
+}
+body{
+    font-family: "Helvetica Neue";
+    background-image: linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../images/Landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#sign_in{
+    background: rgb(229, 9, 20);
+    border: none;
+    padding: 5px 15px;
+    color: white;
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.custom-padding{
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.intro{
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+
+}
+.intro h1{
+    font-size: 40px;
+}
+.intro h3{
+    font-family: "Helvetica Neue1";
+    
+}
+.intro h4{
+    font-family: "Helvetica Neue1";
+    
+}
+#try_it{
+    background: rgb(229, 9, 20);
+    border: none;
+    padding: 20px 60px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+.intro input{
+    font-family: "Helvetica Neue2";
+    border: none;
+    border-radius: 3px;
+    padding: 20px 20px;
+    font-size: 20px;
+    
+}
+
+.email{
+    margin: 15px 50px 15px 50px;
+}
